@@ -1,0 +1,4 @@
+0 Lights On
+1 Lights Off
+2 Aircon On
+3 Aircon Off
