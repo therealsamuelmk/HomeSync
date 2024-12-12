@@ -157,10 +157,10 @@ start_button = tk.Button(root, text="Start Collection", command=start_collecting
 start_button.place(x=0, y=550)
 
 stop_button = tk.Button(root, text="Stop Collection", command=stop_collecting, bg="orange", fg="white", font=("Tahoma", 12))
-stop_button.place(x=150, y=550)
+stop_button.place(x=140, y=550)
 
 exit_button = tk.Button(root, text="Exit Program", command=exit_program, bg="red", fg="white", font=("Tahoma", 12))
-exit_button.place(x=250, y=550)
+exit_button.place(x=280, y=550)
 
 # Start OpenCV in a separate thread
 threading.Thread(target=capture_hand_images, daemon=True).start()
